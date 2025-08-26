@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     
@@ -13,7 +14,7 @@
       <input type="text" id="search-input" placeholder="Search city..." />
       <button type="submit">Search</button>
     </form>   
-    <!-- Clock -->
+    
     <div id="clock">--:--:--</div> 
     <div class="weather-info">
     <div class="weather-left">
@@ -29,15 +30,11 @@
 
     <div class="weather-forecast"></div>
   </div>
-
-  <!-- Axios CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <!-- App JS -->
-  <script src="index.js"></script>
-
+  
   <footer>
     <p>This project was coded by Sea Phogojane , is<a href="https://github.com/Creativehubcenter/weather-app-search-project.git" target="_blank"> open-source on GitHub</a>
     and<a href="https://weather-app-search-project-shecodes.netlify.app/" target="_blank">hosted on Netlify</a></p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

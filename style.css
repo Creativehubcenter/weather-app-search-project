@@ -1,20 +1,13 @@
 body {
-  background: linear-gradient(-45deg, #c5c7c233, #bdc9bf6e, #b8bfb8db, #979b93);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  background: linear-gradient(to right, #c5c7c233, #bdc9bf6e);
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
- 
 }
 
 .weather-app {
   background: rgb(135, 129, 129) ;
+  display: block;
   padding: 20px;
+  margin: auto;
   border-radius: 20px;
   max-width: 600px;
   width: 100%;
@@ -106,10 +99,21 @@ button {
 
 }
 
-
 #clock {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 15px;
   color: #333;
+}
+
+footer p{
+  text-align: center;
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  font-size: 14px;
+  color: rgba(16, 16, 16, 0.75);
+}
+
+.a{
+  color: rgb(98, 133, 98);
 }
